@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center p-8 text-center">
+    <section id="inicio" className="bg-gradient-to-br from-slate-950 via-blue-950 to-blue-900 text-white min-h-screen flex flex-col justify-center items-center p-8 text-center">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-xl md:text-2xl font-semibold text-blue-400 mb-4">
           Telescoope Studio
