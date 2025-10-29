@@ -1,0 +1,17 @@
+[install]
+# Configure package manager behavior
+cache = true
+exact = false
+globalDir = "~/.bun/install/global"
+globalBinDir = "~/.bun/bin"
+registry = "https://registry.npmjs.org/"
+production = false
+
+[install.lockfile]
+# Save lockfile
+save = true
+print = "yarn"
+
+[run]
+# Use bun runtime for scripts
+bun = true
